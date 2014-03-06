@@ -62,7 +62,6 @@
 {
     [self.activity startAnimating];
     __weak __typeof(self) weakSelf = self;
-    addressBook.fieldsMask = APContactFieldAll;
     addressBook.sortDescriptors = @[
     [NSSortDescriptor sortDescriptorWithKey:@"firstName" ascending:YES],
     [NSSortDescriptor sortDescriptorWithKey:@"lastName" ascending:YES]];
@@ -70,7 +69,7 @@
     {
         return contact.phones.count > 0;
     };
-    [addressBook loadContacts:^(NSArray *contacts, NSError *error)
+    [addressBook loadContacts:APContactFieldAll completion:^(NSArray *contacts, NSError *error)
     {
         [weakSelf.activity stopAnimating];
         if (!error)

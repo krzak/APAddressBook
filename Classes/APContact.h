@@ -9,10 +9,11 @@
 #import <Foundation/Foundation.h>
 #import <AddressBook/AddressBook.h>
 #import "APTypes.h"
+#import "APRecord.h"
 
-@interface APContact : NSObject
+@interface APContact : APRecord
 
-@property (nonatomic, readonly) APContactField fieldMask;
+@property (nonatomic, assign, readonly) APContactField fieldMask;
 @property (nonatomic, readonly) NSString *firstName;
 @property (nonatomic, readonly) NSString *lastName;
 @property (nonatomic, readonly) NSString *company;

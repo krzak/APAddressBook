@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		054F704718A57A46002920B7 /* APPhoneWithLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 054F704618A57A46002920B7 /* APPhoneWithLabel.m */; };
+		7551FD7318CBC75000FF804C /* APRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 7551FD7218CBC75000FF804C /* APRecord.m */; };
+		75D489C618C89CC3004656E4 /* APGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D489C518C89CC3004656E4 /* APGroup.m */; };
 		A495CDF35F214F43AFF3AAF9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6084C3D31A504C79BEA08B84 /* libPods.a */; };
 		FA66281C187FE9EF00667C81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA66281B187FE9EF00667C81 /* Foundation.framework */; };
 		FA66281E187FE9EF00667C81 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA66281D187FE9EF00667C81 /* CoreGraphics.framework */; };
@@ -29,6 +31,10 @@
 		054F704518A57A46002920B7 /* APPhoneWithLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APPhoneWithLabel.h; path = ../Classes/APPhoneWithLabel.h; sourceTree = "<group>"; };
 		054F704618A57A46002920B7 /* APPhoneWithLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APPhoneWithLabel.m; path = ../Classes/APPhoneWithLabel.m; sourceTree = "<group>"; };
 		6084C3D31A504C79BEA08B84 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7551FD7118CBC75000FF804C /* APRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APRecord.h; path = ../Classes/APRecord.h; sourceTree = "<group>"; };
+		7551FD7218CBC75000FF804C /* APRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APRecord.m; path = ../Classes/APRecord.m; sourceTree = "<group>"; };
+		75D489C418C89CC3004656E4 /* APGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APGroup.h; path = ../Classes/APGroup.h; sourceTree = "<group>"; };
+		75D489C518C89CC3004656E4 /* APGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APGroup.m; path = ../Classes/APGroup.m; sourceTree = "<group>"; };
 		EDB60104E5CF4C439C2D282C /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		FA662818187FE9EF00667C81 /* AddressBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddressBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA66281B187FE9EF00667C81 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -165,8 +171,12 @@
 			children = (
 				FA66285A187FFACD00667C81 /* APAddressBook.h */,
 				FA66285B187FFACD00667C81 /* APAddressBook.m */,
+				7551FD7118CBC75000FF804C /* APRecord.h */,
+				7551FD7218CBC75000FF804C /* APRecord.m */,
 				FA66285E187FFB2100667C81 /* APContact.h */,
 				FA66285F187FFB2100667C81 /* APContact.m */,
+				75D489C418C89CC3004656E4 /* APGroup.h */,
+				75D489C518C89CC3004656E4 /* APGroup.m */,
 				FAD1CCE718819F7000D03475 /* APTypes.h */,
 				054F704518A57A46002920B7 /* APPhoneWithLabel.h */,
 				054F704618A57A46002920B7 /* APPhoneWithLabel.m */,
@@ -294,6 +304,8 @@
 			files = (
 				FA66282C187FE9EF00667C81 /* AppDelegate.m in Sources */,
 				FA66285C187FFACD00667C81 /* APAddressBook.m in Sources */,
+				7551FD7318CBC75000FF804C /* APRecord.m in Sources */,
+				75D489C618C89CC3004656E4 /* APGroup.m in Sources */,
 				054F704718A57A46002920B7 /* APPhoneWithLabel.m in Sources */,
 				FA66286618800DC500667C81 /* ContactTableViewCell.m in Sources */,
 				FA662860187FFB2100667C81 /* APContact.m in Sources */,
